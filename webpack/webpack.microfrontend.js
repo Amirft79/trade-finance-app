@@ -23,7 +23,7 @@ sharedDependencies = {
 
 module.exports = (config, options, targetOptions) => {
   return withModuleFederationPlugin({
-    name: 'tradefinance',
+    name: 'bopinfo',
     exposes: {
       './translation-module': 'app/shared/language/translation.module.ts',
       './entity-navbar-items': 'app/entities/entity-navbar-items.ts',

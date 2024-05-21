@@ -1,0 +1,23 @@
+{
+  "bopInfoApp": {
+    "bopInfoBopInfo": {
+      "home": {
+        "title": "Bop Infos",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Create a new Bop Info",
+        "createOrEditLabel": "Create or edit a Bop Info",
+        "notFound": "No Bop Infos found"
+      },
+      "created": "A new Bop Info is created with identifier {{ param }}",
+      "updated": "A Bop Info is updated with identifier {{ param }}",
+      "deleted": "A Bop Info is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Bop Info {{ id }}?"
+      },
+      "detail": {
+        "title": "Bop Info"
+      },
+      "id": "ID"
+    }
+  }
+}

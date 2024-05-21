@@ -4,7 +4,7 @@
 <configuration scan="true">
     <include resource="org/springframework/boot/logging/logback/base.xml"/>
 
-    <logger name="ir.dotin" level="INFO"/>
+    <logger name="ir.doint" level="INFO"/>
 
     <logger name="tech.jhipster" level="WARN"/>
 

@@ -1,3 +1,5 @@
 org.springframework.test.context.ContextCustomizerFactory = ir.dotin.config.\
     SqlTestContainersSpringContextCustomizerFactory,ir.dotin.config.\
+    KafkaTestContainersSpringContextCustomizerFactory,ir.doint.config.\
+    SqlTestContainersSpringContextCustomizerFactory,ir.doint.config.\
     KafkaTestContainersSpringContextCustomizerFactory

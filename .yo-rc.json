@@ -1,8 +1,9 @@
 {
   "generator-jhipster": {
+    "applicationIndex": 0,
     "applicationType": "microservice",
     "authenticationType": "jwt",
-    "baseName": "TradeFinance",
+    "baseName": "BopInfo",
     "blueprints": [],
     "buildTool": "maven",
     "cacheProvider": "hazelcast",
@@ -15,16 +16,17 @@
     "enableHibernateCache": true,
     "enableSwaggerCodegen": "true",
     "enableTranslation": true,
-    "entities": [],
+    "entities": ["BopInfo"],
     "gitCompany": "",
     "jhiPrefix": "jhi",
     "jhipsterVersion": "8.4.0",
     "jwtSecretKey": "NTkxNmI2M2VjZWE5NzE5NDdhYzA0Y2I4MTg1ZDZhYmNlY2JjYTNkYzQ5YmQ2ZDNhMzU5NzhjNzc4MmIzZDA4MjdkYjE5Mzk1Njc3MjlhNTE2YjA3MDE0NGJiMjliOTY5OWQ3MzYxYmU0ZGM3MDI2YmVjNTkzY2QzYWE2NzBiNTE=",
     "languages": ["en"],
+    "lastLiquibaseTimestamp": 1716288420000,
     "messageBroker": "kafka",
     "nativeLanguage": "en",
-    "packageFolder": "ir/dotin",
-    "packageName": "ir.dotin",
+    "packageFolder": "ir/doint",
+    "packageName": "ir.doint",
     "prodDatabaseType": "oracle",
     "searchEngine": false,
     "serverPort": 8082,
@@ -35,7 +37,41 @@
     "websocket": false,
     "withAdminUi": true
   },
-  "git-company": "Amirft79",
-  "git-provider": "GitHub",
-  "repository-name": "trade-finance-app"
+  "git-company": {
+    "0": "A",
+    "1": "m",
+    "2": "i",
+    "3": "r",
+    "4": "f",
+    "5": "t",
+    "6": "7",
+    "7": "9"
+  },
+  "git-provider": {
+    "0": "G",
+    "1": "i",
+    "2": "t",
+    "3": "H",
+    "4": "u",
+    "5": "b"
+  },
+  "repository-name": {
+    "0": "t",
+    "1": "r",
+    "2": "a",
+    "3": "d",
+    "4": "e",
+    "5": "-",
+    "6": "f",
+    "7": "i",
+    "8": "n",
+    "9": "a",
+    "10": "n",
+    "11": "c",
+    "12": "e",
+    "13": "-",
+    "14": "a",
+    "15": "p",
+    "16": "p"
+  }
 }

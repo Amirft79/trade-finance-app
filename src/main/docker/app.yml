@@ -1,16 +1,16 @@
 # This configuration is intended for development purpose, it's **your** responsibility to harden it for production
-name: tradefinance
+name: bopinfo
 services:
   app:
-    image: tradefinance
+    image: bopinfo
     environment:
       - _JAVA_OPTIONS=-Xmx512m -Xms256m
       - SPRING_PROFILES_ACTIVE=prod,api-docs
       - MANAGEMENT_PROMETHEUS_METRICS_EXPORT_ENABLED=true
       - SPRING_CLOUD_CONSUL_HOST=consul
       - SPRING_CLOUD_CONSUL_PORT=8500
-      - SPRING_DATASOURCE_URL=jdbc:oracle:thin:@oracle:1521:TradeFinance
-      - SPRING_LIQUIBASE_URL=jdbc:oracle:thin:@oracle:1521:TradeFinance
+      - SPRING_DATASOURCE_URL=jdbc:oracle:thin:@oracle:1521:BopInfo
+      - SPRING_LIQUIBASE_URL=jdbc:oracle:thin:@oracle:1521:BopInfo
       - SPRING_CLOUD_STREAM_KAFKA_BINDER_BROKERS=kafka:9092
     healthcheck:
       test:

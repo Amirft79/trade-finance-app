@@ -23,7 +23,7 @@ const routes: Routes = [
     title: 'login.title',
   },
   {
-    path: 'tradefinance',
+    path: 'bopinfo',
     loadChildren: () => import(`./entities/entity.routes`),
   },
   ...errorRoute,
