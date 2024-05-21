@@ -1,0 +1,14 @@
+
+
+
+application {
+  config {
+    baseName BopInfo
+    applicationType microservice
+    packageName ir.doint
+    authenticationType jwt
+    prodDatabaseType oracle
+  }
+  entities BopInfo
+}
+entity BopInfo{}
