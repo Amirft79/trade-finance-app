@@ -1,4 +1,4 @@
-# TradeFinance
+# BopInfo
 
 This application was generated using JHipster 8.4.0, you can find documentation and help at [https://www.jhipster.tech/documentation-archive/v8.4.0](https://www.jhipster.tech/documentation-archive/v8.4.0).
 
@@ -169,7 +169,7 @@ Refer to [Doing API-First development][] for more details.
 
 ### Packaging as jar
 
-To build the final jar and optimize the TradeFinance application for production, run:
+To build the final jar and optimize the BopInfo application for production, run:
 
 ```
 ./mvnw -Pprod clean verify

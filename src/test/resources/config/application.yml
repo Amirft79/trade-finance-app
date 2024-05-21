@@ -15,7 +15,7 @@
 
 spring:
   application:
-    name: TradeFinance
+    name: BopInfo
   cloud:
     consul:
       discovery:
@@ -34,14 +34,14 @@ spring:
       bindings:
         binding-out-0:
           content-type: text/plain
-          group: trade-finance
+          group: bop-info
         kafkaConsumer-in-0:
           destination: sse-topic
           content-type: text/plain
-          group: trade-finance
+          group: bop-info
         kafkaProducer-out-0:
           content-type: text/plain
-          group: trade-finance
+          group: bop-info
   # Replace by 'prod, faker' to add the faker context and have sample data loaded in production
   liquibase:
     contexts: test
@@ -56,13 +56,13 @@ spring:
     basename: i18n/messages
   task:
     execution:
-      thread-name-prefix: trade-finance-task-
+      thread-name-prefix: bop-info-task-
       pool:
         core-size: 1
         max-size: 50
         queue-capacity: 10000
     scheduling:
-      thread-name-prefix: trade-finance-scheduling-
+      thread-name-prefix: bop-info-scheduling-
       pool:
         size: 20
   thymeleaf:
@@ -79,9 +79,9 @@ server:
 # ===================================================================
 jhipster:
   clientApp:
-    name: 'tradeFinanceApp'
+    name: 'bopInfoApp'
   mail:
-    from: TradeFinance@localhost.com
+    from: BopInfo@localhost.com
     base-url: http://127.0.0.1:8080
   logging:
     # To test json console appender

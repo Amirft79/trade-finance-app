@@ -1,0 +1,13 @@
+{
+  "annotations": {
+    "changelogDate": "20240521104700"
+  },
+  "applications": ["BopInfo"],
+  "clientRootFolder": "BopInfo",
+  "databaseType": "sql",
+  "fields": [],
+  "microserviceName": "BopInfo",
+  "name": "BopInfo",
+  "relationships": [],
+  "searchEngine": "no"
+}

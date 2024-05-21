@@ -6,7 +6,7 @@ import { translatePartialLoader, missingTranslationHandler } from 'app/config/tr
 import { StateStorageService } from 'app/core/auth/state-storage.service';
 
 function lazyTranslatePartialLoader(http: HttpClient): TranslateLoader {
-  return new TranslateHttpLoader(http, 'services/tradefinance/i18n/', `.json?_=${I18N_HASH}`);
+  return new TranslateHttpLoader(http, 'services/bopinfo/i18n/', `.json?_=${I18N_HASH}`);
 }
 
 @NgModule({

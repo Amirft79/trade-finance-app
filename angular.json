@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "trade-finance": {
+    "bop-info": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:component": {
@@ -76,15 +76,15 @@
         "serve": {
           "builder": "@angular-builders/custom-webpack:dev-server",
           "options": {
-            "buildTarget": "trade-finance:build:development",
+            "buildTarget": "bop-info:build:development",
             "port": 4200
           },
           "configurations": {
             "production": {
-              "buildTarget": "trade-finance:build:production"
+              "buildTarget": "bop-info:build:production"
             },
             "development": {
-              "buildTarget": "trade-finance:build:development"
+              "buildTarget": "bop-info:build:development"
             }
           },
           "defaultConfiguration": "development"
